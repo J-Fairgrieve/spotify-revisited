@@ -1,6 +1,7 @@
 # Spotify Revisited
 
 James Fairgrieve
+
 Linkedin: [https://www.linkedin.com/in/jfairgrieve/](https://www.linkedin.com/in/jfairgrieve/)
 
 ## Contents
@@ -41,4 +42,4 @@ Please note, the playlist data is accurate as of 01/07/2022
 ## Conclusion
 
 ## Acknowledgements
-A special thanks to the original group who I worked alongside during the original project, we definitely learned a lot together!
+A special thanks to the original group who I worked alongside during the original project, we definitely learned a lot together! Please have a look at our original project [here](https://github.com/Amina-H1/spotify-project)
