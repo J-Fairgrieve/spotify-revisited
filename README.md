@@ -29,6 +29,8 @@ There are certain limitations to what can be extracted for analysis. For example
 
 Two playlists focusing on one localised area, both looking at popular songs but with varying results. The Top 50 playlist collates the most streamed songs on Spotify at the time. However, the Viral 50 playlist also takes the user interactions into account (sharing to blogs, social media for example). By delving deeper into these playlists using the developer platform we can analyse the type of songs that are top/viral & compare the shape of the two playlists.
 
+Please note, the playlist data is accurate as of 01/07/2022
+
 ## Resources
  - Spotify for Developers
  - UK Top 50 Playlist
