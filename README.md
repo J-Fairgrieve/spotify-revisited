@@ -39,7 +39,54 @@ Please note, the playlist data is accurate as of 01/07/2022
 
 ## Findings
 
-## Conclusion
+### Playlist Features
+
+![Playlist Features](https://raw.githubusercontent.com/J-Fairgrieve/spotify-revisited/main/Images/Top%20and%20Viral%2050%20Feature%20Analysis.png "Top/Viral 50 Feature Analysis")
+
+ - Both playlists have a high Danceability and Energy
+ - Both playlists have a low Instrumentalness and Speechiness
+ - The Top 50 playlist's highest scoring feature is Danceability
+ - The Viral 50 playlist's highest scoring feature was energy
+
+### Top 50 Playlist Analysis
+
+![Top 50 Playlist Correlation Matrix](https://github.com/J-Fairgrieve/spotify-revisited/blob/main/Images/Top%2050%20Features%20Matrix.png?raw=true "Correlation Matrix")
+
+Correlation amongst the Top 50 is relatively weak, apart from energy and acousticness with a strong negative correlation of -0.74
+
+![Acousticness and Energy Scatter Plot](https://github.com/J-Fairgrieve/spotify-revisited/blob/main/Images/acousticness%20energy%20scatter%20plot.png?raw=true "Scatter Plot")
+
+![Acousticness and Energy Box Plot](https://github.com/J-Fairgrieve/spotify-revisited/blob/main/Images/acousticness%20energy%20box%20plot.png?raw=true "Box Plot")
+
+There are three outliers for acousticness:
+
+| Artist        | Album             | Track             | Acousticness | Energy |
+| ------------- | -------------     | ----------------- | ------------ | ------ |
+| Joji          | Glimpse of Us     | Glimpse of Us     | 0.89         | 0.32   |
+| Harry Styles  | Harry's House     | Matilda           | 0.90         | 0.29   |
+| Billie Eilish | Happier Than Ever | Happier Than Ever | 0.77         | 0.23   |
+
+There is one outlier for energy:
+
+| Artist        | Album             | Track             | Acousticness | Energy |
+| ------------- | -------------     | ----------------- | ------------ | ------ |
+| Billie Eilish | Happier Than Ever | Happier Than Ever | 0.77         | 0.23   |
+
+### Viral 50 Playlist Analysis
+
+![Viral 50 Playlist Correlation Matrix](https://github.com/J-Fairgrieve/spotify-revisited/blob/main/Images/Viral%2050%20Features%20Matrix.png?raw=true "Correlation Matrix")
+
+In contrast to the Top 50, the Viral 50 playlist has a mostly negative correlation. The only positive correlation is between Danceability and Valence (0.53).
+
+![Danceability and Valence Scatter Plot](https://github.com/J-Fairgrieve/spotify-revisited/blob/main/Images/danceability%20valence%20scatter%20plot.png?raw=true "Scatter Plot")
+
+![Danceability and Valence Box Plot](https://github.com/J-Fairgrieve/spotify-revisited/blob/main/Images/danceability%20valence%20box%20plot.png?raw=true "Box Plot")
+
+There is one outlier for Danceability:
+
+| Artist        | Album             | Track             | Acousticness | Energy |
+| ------------- | -------------     | ----------------- | ------------ | ------ |
+| Sleep Miracle | Brown Sleep Noise | Brown Sleep Noise | 0.06         | 0.06   |
 
 ## Acknowledgements
 A special thanks to the original group who I worked alongside during the original project, we definitely learned a lot together! Please have a look at our original project [here](https://github.com/Amina-H1/spotify-project)
